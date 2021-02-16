@@ -1,0 +1,9 @@
+include
+lib
+Debug
+Release
+*.user
+*.proj
+*.filters
+*.dll
+*.vcxproj
