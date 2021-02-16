@@ -41,3 +41,19 @@ Where command is the command identifier and each parameter is given separated by
 * **specular r g b** specifies the specular color of the surface.
 * **shininess s** specifies the shininess of the surface.
 * **emission r g b** gives the emissive color of the surface.
+
+# Example Images
+![Nice little room](https://github.com/swindesr/ss_raytracer/blob/main/scenes/scene6.png)
+![Lots of balls](https://github.com/swindesr/ss_raytracer/blob/main/scenes/scene5.png)
+
+# Further Work
+There is a lot of potential improvements and missing features in this raytracer. Here is a list of things I am interested in working on:
+1. Anti-aliasing via multi-sampling
+2. Multithreading to improve performance
+3. More shapes: cube/quad/cylinder/disc/plane/etc.
+4. Monte Carlo integration
+5. Acceleration via space partitioning (think octrees)
+6. Transparency
+7. Double-sided primitives
+
+Lots more, but those are some achievable options in my current skill range.
